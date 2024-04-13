@@ -56,8 +56,6 @@ let result2 =  difference2(7, 4)
 
 
 
-
-
 // function isLoggedIn(username)
 function isLoggedIn(username = "franky")
 {
@@ -72,9 +70,64 @@ function isLoggedIn(username = "franky")
     }
 }
 
-console.log(isLoggedIn("govardhan"))
-console.log(isLoggedIn());
-console.log(isLoggedIn(""));
+// console.log(isLoggedIn("govardhan"))
+// console.log(isLoggedIn());
+// console.log(isLoggedIn(""));
+
+
+
+// function cartItemsPrice(price)
+// function cartItemsPrice(...price)
+function cartItemsPrice(val1,val2, ...price)
+{
+   return price
+}
+
+// console.log(cartItemsPrice(23,44,65,78,99));
+
+
+
+
+const user = {
+    name: "Franky",
+    profession: "shipwright"
+}
+
+function someFunction(userObj) {
+    console.log(`${userObj.name} is  ${userObj.profession} for strawhats`);
+}
+
+// someFunction(user)
+// someFunction({
+//     name: "roronoa zoro",
+//     profession: "vice captain"
+// })
+
+
+
+const arrOfNum = [20,45,68,99,34,68]
+
+function elementOfArr(num){
+    return num[1]
+
+}
+
+// console.log(elementOfArr(arrOfNum));
+
+
+
+
+function element(number){
+    return number[1]
+}
+
+// console.log(element([20,45,68,99,34,68]));
+
+
+
+
+
+
 
 
 
