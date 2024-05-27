@@ -29,7 +29,7 @@
 
 
 // loop on arrays 
-// let myHeros = ["sper", "bat", "spyder", "aqua", "iron"]
+// let myHeros = ["super", "bat", "spyder", "aqua", "iron"]
 // for (let index = 0; index < myHeros.length; index++) {
 //     const element = myHeros[index];
 //     console.log(element);
@@ -48,10 +48,10 @@
 // }
 
 
-for (let index = 1; index <= 20; index++) {
-    if(index === 5 ){
-        console.log(`detected value ${index}`);
-        continue;
-    }
-    console.log(index);
-}
+// for (let index = 1; index <= 20; index++) {
+//     if(index === 5 ){
+//         console.log(`detected value ${index}`);
+//         continue;
+//     }
+//     console.log(index);
+// }

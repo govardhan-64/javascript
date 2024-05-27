@@ -1,3 +1,8 @@
+// while (condition) {
+    
+// }
+
+
 // let index = 1
 // while (index <= 10) {
 //     console.log(`value of index is ${index}`);
@@ -5,18 +10,25 @@
 // }
 
 
+
 // let cars = ['porshe','lambo','bmw','vw','tata']
 // let i = 0
 // while (i < cars.length) {
 //     console.log(cars[i]);
-//     i ++
+//     i++
 // }
 
 
 
-// // let score = 1
-// let score = 11
 // do {
-//     console.log(`score is ${score}`);  
+    
+// } while (condition);
+
+
+
+ // let score = 1
+// //let score = 11
+// do {
+//      console.log(`score is ${score}`); 
 //     score ++  
 // } while (score <= 10);
